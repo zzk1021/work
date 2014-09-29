@@ -1,0 +1,174 @@
+{
+  "conf_version": "2.0",
+  "async_update_time_interval": 3600,
+  "forced_full_update_time_interval": 1800,
+  "conf_refresh_time_interval": 86400,
+  "ios_apps_to_check": [
+    {
+      "app": "ebay",
+      "schemes": [
+        "ebay",
+        "fb267453465127",
+        "ADX1140"
+      ]
+    },
+    {
+      "app": "ppclient",
+      "schemes": [
+        "ppclient",
+        "paypal",
+        "paypal-local-search"
+      ]
+    },
+    {
+      "app": "halfdotcom",
+      "schemes": ["halfdotcom"]
+    },
+    {
+      "app": "redlaser",
+      "schemes": ["redlaser"]
+    },
+    {
+      "app": "where",
+      "schemes": ["where"]
+    },
+    {
+      "app": "ebaymotors",
+      "schemes": [
+        "ebaymotors",
+        "fb164705030244434"
+      ]
+    },
+    {
+      "app": "ebayfashion",
+      "schemes": ["ebayfashion"]
+    },
+    {
+      "app": "stubhub",
+      "schemes": ["stubhub"]
+    },
+    {
+      "app": "sdc",
+      "schemes": ["sdc"]
+    },
+    {
+      "app": "PayPalHere",
+      "schemes": [
+        "fb299473330131984",
+        "paypalhere"
+      ]
+    },
+    {
+      "app": "eBayNow",
+      "schemes": ["ebaynow"]
+    },
+    {
+      "app": "Cydia",
+      "schemes": ["cydia"]
+    },
+    {
+      "app": "LocationHolic",
+      "schemes": ["loch"]
+    },
+    {
+      "app": "ProxyLord",
+      "schemes": ["fb1b1cca46cd75ebc75ad67e6904d5f176"]
+    },
+    {
+      "app": "HotspotShieldVPN",
+      "schemes": ["hotspotshield"]
+    }
+  ],
+  "android_apps_to_check": [
+    "com.ebay.classifieds/com.ebay.app.MainTabActivity",
+    "com.ebay.mobile/com.ebay.mobile.activities.eBay",
+    "com.ebay.redlaser/com.ebay.redlaser.ScannedItemsActivity",
+    "com.milo.android/com.milo.android.activity.HomeActivity",
+    "com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.activity.SendMoneyActivity",
+    "com.rent/com.rent.activities.session.ActivityHome",
+    "com.stubhub/com.stubhub.About",
+    "com.ulocate/com.ulocate.activities.Settings",
+    "com.noshufou.android.su/com.noshufou.android.su.Su",
+    "stericson.busybox/stericson.busybox.Activity.MainActivity",
+    "org.proxydroid/org.proxydroid.ProxyDroid",
+    "com.aed.droidvpn/com.aed.droidvpn.MainGUI",
+    "net.openvpn.openvpn/net.openvpn.openvpn.OpenVPNClient",
+    "com.phoneapps99.aabiproxy/com.phoneapps99.aabiproxy.Orbot",
+    "com.evanhe.proxymanager.pro/com.evanhe.proxymanager.MainActivity",
+    "com.evanhe.proxymanager/com.evanhe.proxymanager.MainActivity",
+    "com.andromo.dev30936.app76198/com.andromo.dev30936.app76198.AndromoDashboardActivity",
+    "com.mgranja.autoproxy_lite/com.mgranja.autoproxy_lite.ProxyListActivity",
+    "com.vpnoneclick.android/com.vpnoneclick.android.MainActivity",
+    "net.hideman/net.hideman.StarterActivity",
+    "com.doenter.android.vpn.fivevpn/com.doenter.android.vpn.fivevpn.FiveVpn",
+    "com.tigervpns.android/com.tigervpns.android.MainActivity",
+    "com.pandapow.vpn/com.pandapow.vpn.PandaPow",
+    "com.expressvpn.vpn/com.expressvpn.vpn.MainActivity",
+    "com.londontrustmedia.vpn/com.londontrustmedia.vpn.VpnServiceActivity",
+    "fr.melecom.VPNPPTP.v101/fr.melecom.VPNPPTP.v101.SplashScreen",
+    "com.checkpoint.VPN/com.checkpoint.VPN.MainHandler",
+    "com.tunnelbear.android/com.tunnelbear.android.TbearMainActivity",
+    "de.blinkt.openvpn/de.blinkt.openvpn.MainActivity",
+    "org.ajeje.fakelocation/org.ajeje.fakelocation.Fake",
+    "com.lexa.fakegps/com.lexa.fakegps.PickPoint",
+    "com.forgottenprojects.mocklocations/com.forgottenprojects.mocklocations.Main",
+    "kr.woot0pia.gps/kr.woot0pia.gps.CatchMeIfUCan",
+    "com.my.fake.location/com.my.fake.location.com.my.fake.location",
+    "jp.netart.arstalking/jp.netart.arstalking.MyPreferenceActivity",
+    "locationPlay.GPSCheatFree/locationPlay.GPSCheatFree.ActivitySmartLocation",
+    "org.goodev.latitude/org.goodev.latitude.LatitudeActivity",
+    "com.scheffsblend.devicespoof/com.scheffsblend.devicespoof.DeviceSpoofActivity",
+    "com.proxyBrowser/com.proxyBrowser.NewProxyBrowserActivity",
+    "com.icecoldapps.proxyserverpro/com.icecoldapps.proxyserverpro.viewStart",
+    "hotspotshield.android.vpn/com.anchorfree.ui.HotSpotShield",
+    "com.doenter.onevpn/com.doenter.onevpn.VpnSettings",
+    "com.yesvpn.en/com.yesvpn.MainTab",
+    "com.officewyze.plutovpn/com.officewyze.plutovpn.HomeActivity",
+    "org.ajeje.locationspooferpro/org.ajeje.locationspooferpro.Fake",
+    "locationPlay.GPSCheat/locationPlay.GPSCheat.ActivitySmartLocation"    
+  ],
+  "location_min_accuracy": 500,
+  "location_max_cache_age": 1800,
+  "send_on_app_start": 1,
+  "endpoint_url": "https://www.stage2gce001.stage.paypal.com:10700/AccessControl/LogRiskMetadata",
+  "internal_cache_max_age": 30,
+  "comp_timeout": 600,
+  "ios_device_model": {
+    "i386": "Simulator",
+    "x86_64": "Simulator",
+    "iPhone1,1": "iPhone",
+    "iPhone1,2": "iPhone 3G",
+    "iPhone2,1": "iPhone 3GS",
+    "iPhone3,1": "iPhone 4",
+    "iPhone3,2": "iPhone 4(Rev A)",
+    "iPhone3,3": "iPhone 4(CDMA)",
+    "iPhone4,1": "iPhone 4S",
+    "iPhone5,1": "iPhone 5(GSM)",
+    "iPhone5,2": "iPhone 5(GSM+CDMA)",
+    "iPhone5,3": "iPhone 5c(GSM)",
+    "iPhone5,4": "iPhone 5c(GSM+CDMA)",
+    "iPhone6,1": "iPhone 5s(GSM)",
+    "iPhone6,2": "iPhone 5s(GSM+CDMA)",
+    "iPhone7,1": "iPhone 6 Plus",
+    "iPhone7,2": "iPhone 6",
+    "iPad1,1": "iPad",
+    "iPad2,1": "iPad 2(WiFi)",
+    "iPad2,2": "iPad 2(GSM)",
+    "iPad2,3": "iPad 2(CDMA)",
+    "iPad2,4": "iPad 2(WiFi Rev A)",
+    "iPad2,5": "iPad Mini(WiFi)",
+    "iPad2,6": "iPad Mini(GSM)",
+    "iPad2,7": "iPad Mini(GSM+CDMA)",
+    "iPad3,1": "iPad 3(WiFi)",
+    "iPad3,2": "iPad 3(GSM+CDMA)",
+    "iPad3,3": "iPad 3(GSM)",
+    "iPad3,4": "iPad 4(WiFi)",
+    "iPad3,5": "iPad 4(GSM)",
+    "iPad3,6": "iPad 4(GSM+CDMA)",
+    "iPod1,1": "iPod 1st Gen",
+    "iPod2,1": "iPod 2nd Gen",
+    "iPod3,1": "iPod 3rd Gen",
+    "iPod4,1": "iPod 4th Gen",
+    "iPod5,1": "iPod 5th Gen"
+  }
+}
